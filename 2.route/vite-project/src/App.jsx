@@ -21,9 +21,9 @@ function App() {
       </Routes> 
       : <Routes>
         <Route path={"/*"} element={<Navigate replace to={"/login"} />} />
-        {/* <Route path={"/"} element={<Login setIsLogin={setIsLogin}/>}/> */}
         <Route path={"/login"} element={<Login setIsLogin={setIsLogin}/>}/>
-        <Route path={"/*"} element={<PageNotFound />}/> 
+        {/* <Route path={"/"} element={<Login setIsLogin={setIsLogin}/>}/> */}
+        {/* <Route path={"/*"} element={<PageNotFound />}/>  */}
       </Routes>}
     </Fragment>
   )

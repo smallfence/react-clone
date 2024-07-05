@@ -7,6 +7,7 @@ import Menu2 from "!@#/component/menu2/Menu2.jsx";
 import Menu3 from "!@#/component/menu3/Menu3.jsx";
 import User from "!@#/component/user/User.jsx";
 import PageNotFound from "!@#/component/pageNotFound/PageNotFound.jsx";
+import PropTypes from "prop-types";
 
 const MainWrapperView = (props) =>{
     const {isLogin, setIsLogin} = props;
@@ -34,12 +35,12 @@ const MainWrapperView = (props) =>{
         </header>
         <section>
             <Routes>
-            <Route path={"/"} element={<Dash />}></Route>
-            <Route path={"/menu1"} element={<Menu1 />}></Route>
-            <Route path={"/menu2"} element={<Menu2 />}></Route>
-            <Route path={"/menu3"} element={<Menu3 />}></Route>
-            <Route path={"/user"} element={<User />}></Route>
-            <Route path={"/*"} element={<PageNotFound />}></Route>
+                <Route path={"/"} element={<Dash />}></Route>
+                <Route path={"/menu1"} element={<Menu1 />}></Route>
+                <Route path={"/menu2"} element={<Menu2 />}></Route>
+                <Route path={"/menu3"} element={<Menu3 />}></Route>
+                <Route path={"/user"} element={<User />}></Route>
+                <Route path={"/*"} element={<PageNotFound />}></Route>
             </Routes>
         </section>
         <footer>
@@ -48,3 +49,8 @@ const MainWrapperView = (props) =>{
     </Fragment>);
 }
 export default MainWrapperView;
+
+MainWrapperView.propTypes = {
+    setIsLogin : PropTypes.func.isRequired,
+    isLogin : PropTypes.bool.isRequired
+}
