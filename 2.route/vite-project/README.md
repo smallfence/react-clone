@@ -39,4 +39,5 @@ Currently, two official plugins are available:
           <Navigate to={"/login"} replace></Navigate>
          * replace 쓸 경우! 이전 페이지로 돌아갈 때 리다이렉트된 페이지를 건너뛰도록 하기 위함.
       (2) useNavigate :: 함수형식으로 redirect 할때
-         const handleSignup = () => {navigate('/');}   
+         const handleSignup = () => {navigate('/');}
+         
