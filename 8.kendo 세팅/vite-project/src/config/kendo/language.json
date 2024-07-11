@@ -1,0 +1,23 @@
+{
+  "calendar": {
+    "today": "오늘"
+  },
+  "datetimepicker": {
+    "date": "날짜",
+    "time": "시간",
+    "cancel": "취소",
+    "set": "설정"
+  },
+  "timepicker": {
+    "set": "설정",
+    "cancel": "취소",
+    "now": "오늘",
+    "selectNow": "오늘 선택",
+    "toggleTimeSelector": "",
+    "toggleClock": ""
+  },
+  "upload": {
+    "dropFilesHere": "이 곳에 업로드할 파일을 드롭하세요.",
+    "select": "파일 선택"
+  }
+}
