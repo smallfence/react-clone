@@ -33,3 +33,12 @@ Currently, two official plugins are available:
    4) 라이브러리 다운
       npm install --save @progress/kendo-react-grid @progress/kendo-react-buttons
    5) App.jsx에 마음껏 사용
+3. kendo 국제화 사용방법
+   1) npm install --save @progress/kendo-react-intl
+      KendoReact 라이브러리에서 국제화 기능을 사용하기 위해 필요한 모듈을 임포트하는 구문입니다. @progress/kendo-react-intl 패키지는 KendoReact 컴포넌트의 날짜와 숫자 형식 지정 및    로컬라이제이션을 지원합니다.
+   2) npm install --save cldr-core cldr-dates-full cldr-numbers-full
+      다양한 언어와 문화권에 대한 로케일 데이터를 제공합니다. 이러한 데이터는 날짜, 숫자, 통화, 시간대 등의 형식을 처리할 때 유용합니다.
+   3) config/kendo/lanuage.json 생성
+   4) main.jsx 수정
+      (1) load
+      (2) loadMessages
