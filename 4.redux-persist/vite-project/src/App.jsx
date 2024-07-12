@@ -25,7 +25,7 @@ function App() {
       안녕하세요 {auth?.user?.name}님.
       <button onClick={LoginOnClick}>로그인ㄱㄱ</button>
       <button onClick={LogoutOnClick}>로그아웃ㄱㄱ</button>
-      <p>만약 새로고침 한다면, 정보가 날아갑니다. 이를 persist하게 저장하는 방법은 다음에</p>
+      <p>영구저장 잘되나요?</p>
     </div>
   )
 }
