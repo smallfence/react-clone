@@ -22,8 +22,7 @@ Currently, two official plugins are available:
 
 [3.redux]
 1. 컴포넌트 설치
-   1) npm install redux
-   2) npm install react-redux
+   1) npm install --save redux react-redux
 2. AuthReducer.jsx / AuthAction.jsx 생성
 3. RootReducer.jsx 생성
 4. Store.jsx 생성

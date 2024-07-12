@@ -22,7 +22,7 @@ Currently, two official plugins are available:
 
 [2. route]
 1. react-router-dom 설치
-   1) npm install react-router-dom --save 
+   1) npm install --save react-router-dom
    2) '--save'옵션을 통해 'package.json'에 설치된 패키지의 이름과 버전 정보를 업데이트 할 수 있도록 한다.
 2. main.jsx
    1) import { BrowserRouter } from "react-router-dom";

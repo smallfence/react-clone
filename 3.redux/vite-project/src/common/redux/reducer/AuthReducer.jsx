@@ -5,7 +5,7 @@ const initialize = {
     user : null
 };
 
-export const auth = (state = initialize, action) => {
+export const authReducer = (state = initialize, action) => {
     switch(action.type){
         case LOGIN:
             return {
